@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Google</title>
-    <!-- ajouter le favicon google -->
+    <!-- Favicon google -->
           <link rel="icon" href="Images/google-favicon.png">
     <!-- Icons Fonts -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -11,8 +11,8 @@
     <!-- CSS -->
         <link rel="stylesheet" href="style.css">
     </head>
-    
     <body>
+    <!-- Header -->
         <header>
             <nav>
             <ul>
@@ -23,22 +23,26 @@
             </ul>
             </nav>
         </header>
-        
+    <!-- Header -->
         <center>
-            <div class="wrapper">
-                <div class="search_icon">
-                <img src="Images/logo_google.png" al="logo_google">
-                <form id="search" action="/search" style="overflow:visible" data-submitfalse="q" method="GET" name="f" role="search"> <i class="material-icons">search</i>
-                    <input id="search" class="search_form" type= "text" name="q" title="Rechercher">         
-                    <input class="button" value="Recherche Google" aria-label="Recherche Google" name="recherche-google" type="submit">
-                    <input class="button" value="J'ai de la chance" aria-label="J'ai de la chance" type="submit">
+            <div>
+                <div class="logo_google">
+                <img src="Images/logo_google.png" al="logo_google" href="#">
+                </div>
+                <div class="search_google">
+                <form id="search" action="#"  role="search"> <img src="Images/search-glass.png" alt="search-glass">
+                    <input id="search" class="search_form" type= "text" title="Rechercher">
+                    <div class="button">
+                    <input value="Recherche Google" aria-label="Recherche Google" name="recherche-google" type="submit">
+                    <input value="J'ai de la chance" aria-label="J'ai de la chance" type="submit">
+                    </div>
                 </form>
                 </div>
             </div>
         </center>
-    
+    <!-- Footer -->
     <footer>
-        <div class="wrapper">
+        <div>
             <div class="france">France</div>
             <span class="lien"><a href="#">Publicité</a>
                 <a href="#">Entreprise</a>
@@ -51,6 +55,7 @@
                 <a href="#">Paramètres</a>
             </span>  
         </div>
-    </footer>    
+    </footer>
+    <!-- Footer -->
     </body>
 </html>
