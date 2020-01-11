@@ -4,11 +4,10 @@
         <meta charset="utf-8">
         <title>Google</title>
     <!-- ajouter le favicon google -->
-        
+          <link rel="icon" href="Images/google-favicon.png">
     <!-- Icons Fonts -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    
     </head>
     
     <body>
@@ -23,12 +22,14 @@
         
         <center>
             <div class="wrapper">
+                <div class="search_icon">
                 <img src="Images/logo_google.png" al="logo_google">
-                <form id="search" action="/search" style="overflow:visible" data-submitfalse="q" method="GET" name="f" role="search">
-                    <input id="search" class="search_form" type= "text" name="q" title="Rechercher">
+                <form id="search" action="/search" style="overflow:visible" data-submitfalse="q" method="GET" name="f" role="search"> <i class="material-icons">search</i>
+                    <input id="search" class="search_form" type= "text" name="q" title="Rechercher">         
                     <input class="button" value="Recherche Google" aria-label="Recherche Google" name="recherche-google" type="submit">
                     <input class="button" value="J'ai de la chance" aria-label="J'ai de la chance" type="submit">
-                </form>                        
+                </form>
+                </div>
             </div>
         </center>
     
