@@ -1,0 +1,29 @@
+    /* GENERAL */
+body {
+    font-family: Arial;
+    font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    border-bottom: 0.1px solid #222;
+}
+
+    /* HEADER */
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav ul li {
+    padding: 7px 7px;
+}
