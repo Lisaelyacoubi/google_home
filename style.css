@@ -86,23 +86,17 @@ center .logo_google {
 /* FOOTER */
 footer {
     margin-top: 150px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    font-size: small;
+    color: dimgrey;
+    border-top: 1px solid lightgrey;
 }
 
+.france {
+    border-bottom: 1px solid lightgrey;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#space {
+    margin-right: 370px;
+}
